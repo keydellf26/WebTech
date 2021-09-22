@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All about Keydell</title>
+    <link rel="stylesheet" href="style4.css" type="text/css" />
+    <style>
+      .Nav_Bar {
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        font-size: 25px;
+        
+      }
+
+      .Nav_Bar li { text-align: justify; float: left; list-style-type: none; color: white; padding: 10px; background-color: black; 
+
+      }
+
+      .Nav_Bar li :hover{ color: black;
+        background-color: white;
+      }
+
+      .Nav_Bar .dropdown {
+        display: none; 
+        text-align: left;
+        position: absolute;
+       background-color: black;
+       color: white;
+      }
+      .Nav_Bar .dropdown a {
+        display: block; 
+        text-align: left;
+        overflow: auto;
+
+      }
+      
+
+      .Nav_Bar li.black:hover .dropdown{
+        display: block; 
+        color: white;
+        background-color: black;
+        padding: 10px;
+
+      }
+
+      h1 {
+        font-family: dope;
+        text-align: center;
+        font-size: 36px;
+        text-shadow: 3px 3px red;
+      }
+      h6 {
+        text-align: center;
+        width: 50%;
+      }
+      h4 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        color: black;
+        text-decoration: none;
+      }
+      hr {
+        width: 50%;
+        height: 4px;
+        background-color: black; 
+        position: relative;
+        z-index: 1;
+      }
+      span {
+        font-variant: small-caps;
+        color: tan;
+      }
+      .shadow {
+        box-shadow: 1px 1px 1px 1px black;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      a {
+        text-align: center; text-decoration: none; color: white;
+      }
+      @font-face {
+        font-family: dope;
+        src: url(WinterInsight.otf);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is a page about me -->
+    <h1><span style="color: greenyellow"> Tales By Keydell </span></h1>
+
+    <div class="Nav_Bar">
+        <ul>
+            <li>
+                <a href="index.html"> Home </a>
+            </li>
+            <li >
+                <a href="interests.html"> Interests </a>
+
+            </li>
+            <li class="black" >
+                Search Engines
+                <div class="dropdown">
+                  <a href="https://www.google.com/"> Google </a>
+                  <a href="https://www.bing.com/"> Bing </a>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+    <br />
+    <br />
+    <p></p>
+    <hr />
+    <h6 class="shadow">
+      <img src="keydell.jpg" usemap="#Keydell"  alt="Me"/>
+      <map name="Keydell">
+        <area
+          target="uh"
+          alt="Teeth"
+          title="Get White Teeth"
+          href="https://crestwhitesmile.com/shop-all/"
+          coords="123,155,175,177"
+          shape="rect"
+        />
+      </map>
+    </h6>
+    
+    <p>
+      Hello my name is <span> Keydell Fuller </span> and I am from Middletown
+      Rhode Island. <br />
+      The best way to contact me is via email. Kfuller2@babson.edu
+    </p>
+    <p>I like to <i> trade stocks</i> and not the biggest fan of sleep.</p>
+  </body>
+</html>
